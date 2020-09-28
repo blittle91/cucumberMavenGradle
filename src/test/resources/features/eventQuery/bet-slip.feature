@@ -79,12 +79,12 @@ Feature: Interact with bet slip
 
   # These tests could be covered as part of an e2e user journey
   # For test execution optimization, this is covered in GSFE-600-3
-  @GSFE-600-1 @Manual @System @Pending
-  Scenario: Verify each way returns are correct on Bet Slip
-
-  # For test execution optimization, this is covered in GSFE-600-3
-  @GSFE-600-2 @Integration @System @Pending
-  Scenario: Verify potential returns are correct for each way bets in open bets
+#  @GSFE-600-1 @Manual @System @Pending
+#  Scenario: Verify each way returns are correct on Bet Slip
+#
+#  # For test execution optimization, this is covered in GSFE-600-3
+#  @GSFE-600-2 @Integration @System @Pending
+#  Scenario: Verify potential returns are correct for each way bets in open bets
 
   @GSFE-600-3 @Integration @System @Pending
   Scenario Outline: Verify potential returns are correct for each way bets in settled bets
