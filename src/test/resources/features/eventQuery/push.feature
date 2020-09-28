@@ -1,6 +1,6 @@
 Feature: Push updates for prices
 
-    Tags: Unit, Integration, System, XF, Manual, Compliance, Pending
+#    Tags: Unit, Integration, System, XF, Manual, Compliance, Pending
 
     @GSFE-268-1 @Unit
     Scenario: Verify that the Accept Changes button appears on the bet slip when a price change is received

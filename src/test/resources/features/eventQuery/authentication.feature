@@ -1,6 +1,6 @@
 Feature: Login/Logout
 
-  Tags: Unit, Integration, System, XF, Manual, Compliance
+#  Tags: Unit, Integration, System, XF, Manual, Compliance
 
   Scenario: Login via the RAM header
     Given I am on the "home" page

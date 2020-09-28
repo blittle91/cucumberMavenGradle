@@ -1,6 +1,6 @@
 Feature: Interact with bet slip
 
-  Tags: Unit, Integration, System, XF, Manual, Compliance, Pending
+#  Tags: Unit, Integration, System, XF, Manual, Compliance, Pending
 
   Scenario Outline: Add <outcome> football opportunity to the bet slip
     Given I am on a random "football event"

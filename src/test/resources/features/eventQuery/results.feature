@@ -1,6 +1,6 @@
 Feature: Results Service
 
-    Tags: Unit, Integration, System, XF, Manual, Compliance, Pending
+#    Tags: Unit, Integration, System, XF, Manual, Compliance, Pending
 
     @GSFE-516-1 @Unit @Integration @Manual @Compliance @Pending
     Scenario Outline: User able to see a list of competitions and events per sport

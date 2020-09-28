@@ -1,6 +1,6 @@
 Feature: Bet settlement
 
-  Tags: Unit, Integration, System, XF, Manual, Compliance, Pending
+#  Tags: Unit, Integration, System, XF, Manual, Compliance, Pending
 
   # The result colour is not tested at unit level. For test execution optimization, this is covered in GSFE-605-2
   @GSFE-605-1 @Pending
@@ -52,4 +52,3 @@ Feature: Bet settlement
     And the dead heat information is displayed for the event
     And the dead heat reduction message is not applied for my bet
 
-    

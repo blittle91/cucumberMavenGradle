@@ -3,7 +3,7 @@ Feature: Amelco historical bets
   I want to have access to my bets within sportsbook regardless of the trading system used
   So that I can review my bets details for the last one year
 
-  Tags: Unit, Integration, System, XF, Manual, Compliance, Pending
+#  Tags: Unit, Integration, System, XF, Manual, Compliance, Pending
 
   Background:
     Given I am customer with Amelco bets for the last one year

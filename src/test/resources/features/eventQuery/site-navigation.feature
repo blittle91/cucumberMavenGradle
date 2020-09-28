@@ -1,6 +1,6 @@
 Feature: Website navigation
 
-  Tags: Unit, Integration, System, XF, Manual, Compliance, Pending
+#  Tags: Unit, Integration, System, XF, Manual, Compliance, Pending
 
   Scenario: Navigate to a competitions page using the A-Z menu
     Given I am on the "home" page
