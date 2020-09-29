@@ -24,4 +24,9 @@ public class StepDefinitions {
         int total = Head + Head;
         assertEquals(Tails, total);
     }
+
+    @Given("a pre-requisite step definition")
+    public void aTypicalBeforeEachHook() {
+
+    }
 }
