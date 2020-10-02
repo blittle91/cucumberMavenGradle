@@ -6,6 +6,7 @@ Feature: Frontend Offer Currency
   Background: Ensure the tests are set up correctly
     Given a pre-requisite step definition
 
+  @TCM-52
   Scenario Outline: A test relating to the frontend offer currency
 
     Given <Head> and <Tails> = 2
