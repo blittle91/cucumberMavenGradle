@@ -1,4 +1,4 @@
-@betslip
+@betslip @GSCOM-129
 Feature: Interact with bet slip
 
 #  Tags: Unit, Integration, System, XF, Manual, Compliance, Pending
@@ -15,6 +15,7 @@ Feature: Interact with bet slip
       | draw    |
       | away    |
 
+    @betslip
   Scenario: Select multiple opportunities and remove them
     Given I am on a random "football competition"
     When I select "2" outcomes from different events in competition events widget
