@@ -1,3 +1,4 @@
+@betslip
 Feature: Website navigation
 
 #  Tags: Unit, Integration, System, XF, Manual, Compliance, Pending

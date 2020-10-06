@@ -1,3 +1,4 @@
+@betslip
 Feature: Interact with bet slip
 
 #  Tags: Unit, Integration, System, XF, Manual, Compliance, Pending
