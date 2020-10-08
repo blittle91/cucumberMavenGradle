@@ -3,7 +3,7 @@ Feature: Login/Logout
 
 #  Tags: Unit, Integration, System, XF, Manual, Compliance
 
-  @auth
+  @auth @TCM-122
   Scenario: Login via the RAM header
     Given I am on the "home" page
     When I click the Login button in the RAM header
@@ -11,7 +11,7 @@ Feature: Login/Logout
     And I click the Login button in the popup
     Then I am successfully logged in
 
-  @auth
+  @auth @TCM-123
   Scenario: Login via the Bet Slip
     Given I am on a random "football event"
     When I select the "home" outcome
@@ -21,7 +21,7 @@ Feature: Login/Logout
     And I click the Login button in the popup
     Then I am successfully logged in
 
-  @auth
+  @auth @TCM-124
   Scenario: Login via My Bets
     Given I am on the "my bets" page
     When I click the Login button in the My Bets page
@@ -29,7 +29,7 @@ Feature: Login/Logout
     And I click the Login button in the popup
     Then I am successfully logged in
 
-  @auth
+  @auth @TCM-125
   Scenario: Logout via the RAM header
     Given I am on the "home" page
     And I am logged in
