@@ -76,3 +76,9 @@ Feature: Interact with bet slip
     And I check an each way checkbox
     And I click the Place Bet button
     Then the bet is placed
+
+  @betslip
+  Scenario: Place an Lucky15 bet
+    Given I am on a random "football event"
+    When I select 4 linked outcomes
+    Then I can select the lucky 15 in the betslip
