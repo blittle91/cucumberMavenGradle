@@ -24,7 +24,7 @@ Feature: Interact with bet slip
     When I click the Clear Bet Slip button
     Then I can see "0" opportunities on the bet slip
 
-  @betslip
+  @betslip @TCM-117
   Scenario: Place a single bet
     Given I am on a random "football event"
     And I am logged in
