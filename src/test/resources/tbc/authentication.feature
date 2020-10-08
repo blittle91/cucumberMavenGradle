@@ -1,7 +1,7 @@
 @auth
 Feature: Login/Logout
 
-  Tags: Unit, Integration, System, XF, Manual, Compliance
+#  Tags: Unit, Integration, System, XF, Manual, Compliance
 
   @auth
   Scenario: Login via the RAM header
