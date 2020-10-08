@@ -66,7 +66,7 @@ Feature: Interact with bet slip
     And I open each way details
     Then I can see each way details
 
-  @Pending @betslip
+  @Pending @betslip @TCM-121
   Scenario: Place an Each Way bet
     Given I am on a random "football each way market"
     And I am logged in
