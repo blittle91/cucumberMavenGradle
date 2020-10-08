@@ -19,7 +19,7 @@ Feature: Website navigation
     When I select the "results" tab
     Then I am redirected to the "Results" page
 
-  @GSFE-547-1 @Unit @System @Manual @Pending
+  @Unit @System @Manual @Pending
   Scenario: Navigate to an event results page
     Given I am on the "results" page
     When I select the first event

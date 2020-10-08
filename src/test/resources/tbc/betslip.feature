@@ -24,7 +24,7 @@ Feature: Interact with bet slip
     When I click the Clear Bet Slip button
     Then I can see "0" opportunities on the bet slip
 
-  @betslip
+  @betslip @TCM-117
   Scenario: Place a single bet
     Given I am on a random "football event"
     And I am logged in
@@ -66,7 +66,7 @@ Feature: Interact with bet slip
     And I open each way details
     Then I can see each way details
 
-  @Pending @betslip
+  @Pending @betslip @TCM-121
   Scenario: Place an Each Way bet
     Given I am on a random "football each way market"
     And I am logged in
