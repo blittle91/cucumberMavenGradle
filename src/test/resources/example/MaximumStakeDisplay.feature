@@ -7,3 +7,7 @@ Feature: A title explaining what this feature tests
   Scenario: A meaningful test name for this feature
     Given 1 + 1 = 2
     Then this scenario is true
+
+  Scenario: Another test name for the demo
+    Given 1 + 1 = 2
+    Then this scenario is true
