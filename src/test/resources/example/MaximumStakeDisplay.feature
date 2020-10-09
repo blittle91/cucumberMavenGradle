@@ -8,6 +8,7 @@ Feature: A title explaining what this feature tests
     Given 1 + 1 = 2
     Then this scenario is true
 
+  @TCM-148
   Scenario: Another test name for the demo
     Given 1 + 1 = 2
     Then this scenario is true
