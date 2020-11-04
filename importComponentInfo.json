@@ -1,7 +1,9 @@
 {
-  "components": [
-    {
-      "id": "31900"
-    }
-  ]
+  "fields": {
+    "components": [
+      {
+        "id": "31900"
+      }
+    ]
+  }
 }
