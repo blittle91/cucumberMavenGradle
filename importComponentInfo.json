@@ -6,7 +6,9 @@
       }
     ],
     "customfield_30900": [
-      "Pending Automation"
+      {
+        "value": "Pending Automation"
+      }
     ]
   }
 }
