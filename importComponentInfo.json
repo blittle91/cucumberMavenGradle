@@ -5,10 +5,8 @@
         "id": "31900"
       }
     ],
-    "customfield_30900": [
-      {
-        "value": "Pending Automation"
-      }
-    ]
+    "customfield_30900": {
+      "value": "Pending Automation"
+    }
   }
 }
